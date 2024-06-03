@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravidlá hry Go</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+        header ul li {
+            float: left;
+            display: inline;
+            padding: 5px 20px;
+        }
+        header ul li a:hover {
+            color: #77aaff;
+        }
+        .content {
+            background: #fff;
+           
+        }
+        h2 {
+            color: #333;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Pravidlá hry Go</h1>
+            <nav>
+                <ul>
+                    <li><a href='stranka.html'>Hlavná stránka</a></li>
+                    <li><a href="pravidla.html">Pravidlá GO</a></li>
+                    <li><a href="tsumego.html">Tsumego problémy</a></li>
+                    <li><a href="Onas.html">O nás</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content">
+        <h2>Úvod</h2>
+        <p>Go je japonská dosková hra, ktorá sa hrá na doske s mriežkou. Je to najstaršia dochovaná dosková hra. Má jednoduché pravidlá, ale hra sama o sebe je veľmi komplexná.</p>
+        <p><img src="symbol.jpg" alt="symbol" width=90 title="Symbol Go"></p>
+        <h2>Herná doska a kamene</h2>
+        <p>Najčastejšie sa hrá na doske s rozmermi 19x19, ale existujú aj menšie dosky 9x9 alebo 13x13. Hráči používajú čierne a biele kamene.</p>
+        
+        <h2>Základné pravidlá</h2>
+        <ul type="square">
+            <li>Hra začína prázdnou doskou a začína čierny. Hráči sa striedajú v ťahoch, kde jeden ťah pozostáva z položenia jedného kameňa svojej farby na voľný priesečník na doske. </li>
+            <li>Cieľom hry je ohraničiť viac územia než súper. Pod územím rozumieme prázdne priesečníky obklopené kameňmi jednej farby.</li>
+            <li>Kameň alebo skupina kameňov je zajatá a odstránená z dosky, ak sú zo všetkých strán obklopené kameňmi súpera.</li>
+            <li>Ak už si hráč myslí, že žiaden jeho ťah by mu nepriniesol úžitok, môže povedať <em>pas</em>.</li>
+            <li>Hra končí, keď obaja hráči povedia <em>pas</em> bezprostredne po sebe. V tom momente sa spočítajú body.</li>
+        </ul>
+        
+        <h2>Počítanie bodov</h2>
+        <ul type="square">
+            <li>Hráč získa jeden bod za každý priesečník, ktorý je súčasťou jeho územia.</li>
+            <li>Každý zajatý kameň súpera sa počíta ako jeden bod.</li>
+            <li>Hráč s bielymi kameňmi dostane tzv. <em>komi</em> - niekoľko bodov, väčšinou je to 6 alebo 6,5 - ako kompenzáciu za to, že nezačínal.</li>
+            <li>Víťazom je hráč s najväčším počtom bodov.</li>
+        </ul>
+        
+        <h2>Pravidlo Ko</h2>
+        <p>Pravidlo Ko zakazuje hráčom opakovať tú istú hernú pozíciu viac krát po sebe. </p>
+    </div>
+</body>
+</html>
